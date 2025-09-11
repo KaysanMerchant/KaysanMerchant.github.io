@@ -1,0 +1,5 @@
+remote_theme: "jeffreytse/jekyll-theme-yat"
+Title: Kaysan Merchant
+description: Rayan is a poopy head
+plugins:
+  - jekyll-remote-theme
