@@ -1,7 +1,5 @@
-remote_theme: "jeffreytse/jekyll-theme-yat"
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 Title: Kaysan Merchant
 description: Rayan is a poopy head
 plugins:
   - jekyll-remote-theme
-  - name: jekyll-deploy-gh-pages
-    uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
