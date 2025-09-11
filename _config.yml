@@ -3,5 +3,5 @@ Title: Kaysan Merchant
 description: Rayan is a poopy head
 plugins:
   - jekyll-remote-theme
-- name: jekyll-deploy-gh-pages
-  uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
+  - name: jekyll-deploy-gh-pages
+    uses: BryanSchuetz/jekyll-deploy-gh-pages@v2.0
