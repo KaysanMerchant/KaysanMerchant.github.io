@@ -4,6 +4,8 @@ title: About me
 date: 2025-09-11
 ---
 
+![](/docs/assets/Kaysan_face.
+
 My name is Kaysan Merchant.
 
 I am a student at Port Credit Secondary School(exp. 2027), apart of the SciTech program. I am of South Asian descent, specifically Pakistan. 
