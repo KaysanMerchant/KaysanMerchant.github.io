@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About me
+date: 2025-09-11
 ---
 
 My name is Kaysan Merchant.
