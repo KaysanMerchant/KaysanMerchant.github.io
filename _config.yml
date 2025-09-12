@@ -1,5 +1,9 @@
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-Title: Kaysan Merchant
-description: Rayan is a poopy head
+
+title: "Kaysan Merchant"
+description: "This site is dedicated to the SciTech portfolio of Kaysan Merchant. Currently work in-progress to be updated with full information."
+lang: "en-US"
+url: "https://KaysanMerchant.github.io/"
+
 plugins:
   - jekyll-remote-theme
