@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: About me
 date: 2025-09-11
 ---
