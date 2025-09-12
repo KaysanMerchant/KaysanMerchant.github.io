@@ -1,0 +1,14 @@
+/* This class will position the element absolutely, to the far right of the page */
+.absolute-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.about-page-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 250px; /* Adjust as needed */
+  /* You may need to adjust the position to avoid overlapping text */
+}
