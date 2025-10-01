@@ -4,7 +4,7 @@ title: About me
 date: 2025-09-11
 ---
 
-![](/docs/assets/Kaysan_portrait.png){: .align-right}
+![](/docs/assets/Kaysan_portrait.png){: .align-left}
 
 My name is Kaysan Merchant.
 
