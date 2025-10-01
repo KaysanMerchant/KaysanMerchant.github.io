@@ -2,7 +2,7 @@
   url: /about.html/
 
 - title: Projects
-  url: /projects.html/
+  url: /projects/
   children:
     - title: Grade 11
-      url: /projects.html/grade11.html/
+      url: /projects/grade11.html/
