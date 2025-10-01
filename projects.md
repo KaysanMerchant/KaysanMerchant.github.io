@@ -1,1 +1,4 @@
-# Hi
+---------
+layout: home
+title: Projects
+---------
