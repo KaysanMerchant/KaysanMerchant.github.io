@@ -1,0 +1,8 @@
+- title: About
+  url: /about/
+
+- title: Projects
+  url: /projects/
+  children:
+    - title: Grade 11
+      url: /about/grade11/
