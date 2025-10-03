@@ -19,19 +19,44 @@ y3 = [7.46,6.77,12.74,7.11,7.81,8.84,6.08,5.39,8.15,6.42,5.73]
 x4 = [8,8,8,8,8,8,8,19,8,8,8]
 y4 = [6.58,5.76,7.71,8.84,8.47,7.04,5.25,12.5,5.56,7.91,6.89]
 
-plt.scatter(x,y1,color="green",label="Set 1")
-plt.scatter(x,y2,color="red",label="Set 2")
-plt.scatter(x,y3,color="blue",label="Set 3")
 x_all = x*3
 y_all = y1 + y2 + y3
-m, b = np.polyfit(x_all, y_all, 1)
-plt.plot(sorted(x_all), [m*xi + b for xi in sorted(x_all)], color="black", linestyle="--", label="Regression (all sets)")
-plt.grid(True)
+```
+
+What is shown above is the datasets in Anscombe's Quartet and the libraries used to create the graphs(`x_all` & `y_all` are used later in calculations).
+
+```Python
+plt.scatter(x,y1,color="green")
+m, b = np.polyfit(x, y1, 1)
+plt.plot(sorted(x), [m*xi + b for xi in sorted(x)], color="black", linestyle="--")
+plt.grid(False)
 plt.xlabel("x")
 plt.ylabel("y")
-plt.title("Relation of x values to y values")
-plt.legend(loc='upper right', title='Dataset',bbox_to_anchor=(1.45, 1))
+plt.title("Relation of x values to y1")
 plt.show()
+
+plt.scatter(x,y2,color="red")
+m, b = np.polyfit(x, y2, 1)
+plt.plot(sorted(x), [m*xi + b for xi in sorted(x)], color="black", linestyle="--")
+plt.grid(False)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Relation of x values to y2")
+plt.show()
+
+plt.scatter(x,y3,color="blue")
+m, b = np.polyfit(x, y3, 1)
+plt.plot(sorted(x), [m*xi + b for xi in sorted(x)], color="black", linestyle="--")
+plt.grid(False)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("Relation of x values to y3")
+plt.show()
+```
+
+This part shows the first 3 graphs. The first 3 graphs includes the first 3 datasets, which all have the same x values. `plt.scatter` is what plots the points, while `plt.plot` is the linear regression line. Everything else is formatting and labelling.
+
+```Python
 
 plt.scatter(x4,y4,color="purple")
 m4, b4 = np.polyfit(x4, y4, 1)
@@ -41,7 +66,11 @@ plt.xlabel("x")
 plt.ylabel("y4")
 plt.title("Relation of x values to y values, set 2")
 plt.show()
+```
 
+This is the second graph. It has the same gist as the first one, it is just that the dataset is different. It has different x values which is what makes it seperate.
+
+```Python
 total_x = x + x4
 mean_x = np.mean(total_x)
 print("Mean of x(including x4) is",mean_x)
@@ -79,3 +108,5 @@ ss_tot_4 = sum((yi - y_mean_4)**2 for yi in y4)
 r2_4 = 1 - (ss_res_4/ss_tot_4)
 print(f"R² for y4: {r2_4:.4f}")
 ```
+
+This huge block of 
