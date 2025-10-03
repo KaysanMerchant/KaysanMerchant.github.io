@@ -109,4 +109,4 @@ r2_4 = 1 - (ss_res_4/ss_tot_4)
 print(f"R² for y4: {r2_4:.4f}")
 ```
 
-This huge block of 
+This huge block of code is all the calculations that are required for the analysis. It includes the mean of the datasets, each variable's variance, and the coefficient of determination.
