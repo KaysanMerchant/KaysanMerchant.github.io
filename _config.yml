@@ -1,4 +1,4 @@
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: jekyll-theme-minimal
 
 title: "Kaysan Merchant"
 description: "This site is dedicated to the SciTech portfolio of Kaysan Merchant. Currently work in-progress to be updated with full information."
@@ -6,4 +6,4 @@ lang: "en-US"
 url: "https://KaysanMerchant.github.io/"
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-paginate
