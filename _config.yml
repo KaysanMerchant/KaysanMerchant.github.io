@@ -1,9 +1,29 @@
-remote_theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
+title: Kaysan Merchant
 
-title: "Kaysan Merchant"
-description: "This site is dedicated to the SciTech portfolio of Kaysan Merchant. Currently work in-progress to be updated with full information."
-lang: "en-US"
-url: "https://KaysanMerchant.github.io/"
+baseurl: "/scitech"
 
 plugins:
-  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-paginate-v2
+
+collections:
+  grade9:
+    output: true
+  grade10:
+    output: true
+  grade11:
+    output: true
+  grade12:
+    output: true
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+pagination:
+  enabled: true
+  collection: grade9
+  per_page: 5
+  sort_field: date
+  sort_reverse: true
+paginate_path: "/page:num/"
+
