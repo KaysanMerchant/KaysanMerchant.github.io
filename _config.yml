@@ -3,7 +3,7 @@ title: Kaysan Merchant
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 collections:
   grade9:
