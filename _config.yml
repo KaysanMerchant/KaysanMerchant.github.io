@@ -17,11 +17,6 @@ collections:
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-pagination:
-  enabled: true
-  collection: grade9
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
+paginate: 5
 paginate_path: "/page:num/"
 
