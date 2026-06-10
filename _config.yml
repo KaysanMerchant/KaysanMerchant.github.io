@@ -1,22 +1,4 @@
 theme: jekyll-theme-minimal
 title: Kaysan Merchant
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-
-collections:
-  grade9:
-    output: true
-  grade10:
-    output: true
-  grade11:
-    output: true
-  grade12:
-    output: true
-
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
-paginate: 5
-paginate_path: "/page:num/"
-
